@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8445318322FA0111004F9760 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8445318222FA0111004F9760 /* People.swift */; };
 		8470A80122F9ED2A004B9166 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470A80022F9ED2A004B9166 /* AppDelegate.swift */; };
 		8470A80322F9ED2A004B9166 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470A80222F9ED2A004B9166 /* SceneDelegate.swift */; };
 		8470A80522F9ED2A004B9166 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8470A80422F9ED2A004B9166 /* ContentView.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8445318222FA0111004F9760 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
 		8470A7FD22F9ED2A004B9166 /* SwiftUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8470A80022F9ED2A004B9166 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8470A80222F9ED2A004B9166 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,6 +88,7 @@
 				8470A80B22F9ED2B004B9166 /* LaunchScreen.storyboard */,
 				8470A80E22F9ED2B004B9166 /* Info.plist */,
 				8470A80822F9ED2B004B9166 /* Preview Content */,
+				8445318222FA0111004F9760 /* People.swift */,
 			);
 			path = SwiftUIDemo;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8445318322FA0111004F9760 /* People.swift in Sources */,
 				8470A80122F9ED2A004B9166 /* AppDelegate.swift in Sources */,
 				8470A80322F9ED2A004B9166 /* SceneDelegate.swift in Sources */,
 				8470A80522F9ED2A004B9166 /* ContentView.swift in Sources */,

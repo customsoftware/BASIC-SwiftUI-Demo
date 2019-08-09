@@ -10,7 +10,14 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        List(/*@START_MENU_TOKEN@*/0 ..< 5/*@END_MENU_TOKEN@*/) { item in
+            Image(systemName: "photo")
+            VStack(alignment: .leading) {
+                Text("Hi My Name Is Ken!")
+                Text("I am older than most people now.")
+                    .font(.subheadline).foregroundColor(.secondary)
+            }
+        }
     }
 }
 
